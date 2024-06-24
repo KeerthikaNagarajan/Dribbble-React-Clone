@@ -1,0 +1,64 @@
+/* src/component/Dropdown.css */
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.space{
+  padding: 10px 2px 2px 0px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: white;
+  border: 2px solid #d1d1d1;
+  padding: 0px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 180px;
+  text-align: left;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center
+}
+
+.arrow {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px; /* Adjust the size of the icons */
+}
+
+.dropdown-options {
+  margin-top: 10px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 15px
+}
+
+.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.dropdown-option:hover {
+  background-color: #d7d7d79c;
+  padding: 8px;
+}
+
+.tick {
+  margin-left: 1px;
+  color: rgb(0, 0, 0); /* You can change the color of the tick mark here */
+}
+

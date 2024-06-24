@@ -1,0 +1,23 @@
+ .parent-container {
+    display: flex;
+    margin-left: auto;
+    padding-top: 13px;
+    padding-right: 50px;
+
+  }
+  
+  .color-filter {
+    margin-left: auto; 
+  }
+  
+  .color-filter select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 30px;
+
+  }
+   
+
+
+
+  

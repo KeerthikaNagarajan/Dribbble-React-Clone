@@ -1,0 +1,88 @@
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-item {
+  overflow: hidden;
+  width: calc(25% - 40px); /* Adjust width to account for padding */
+  max-width: 400px; /* Ensure max-width */
+  margin: 10px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.image-info {
+
+  display: flex;
+  align-items: center;
+  width: 10%;
+  height: 10%;
+  /* border-radius: 70px; */
+  padding: 3px 2px 0px 8px;
+
+}
+
+.profile-icon {
+  width: 8%; /* Adjust the size as needed */
+  height: 8%; /* Adjust the size as needed */
+  border-radius: 90px;
+  object-fit: cover;
+}
+
+
+.developer-name {
+  padding-left: 8px;
+  font-size: 13px;
+  align-items: center;
+
+}
+
+.team-tag {
+  background-color: #c2c2c2;
+  padding: 3px 3px 3px 3px;
+  border-radius: 5px;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 9px;
+  margin-left: 10px; /* Add some space between the team tag and the developer name */
+}
+
+.like-view {
+  /* margin-left: auto;  */
+  display: flex;
+  padding-left: 40px;
+  gap: 5px; /* Add space between likes and views */
+  align-items: center;
+}
+
+.likes {
+  font-size: 13px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.likes:hover .icon, .likes.liked .icon {
+  filter: grayscale(0%);
+  color: red; /* Change the icon color to red on hover and when liked */
+}
+
+.views {
+  font-size: 14px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  filter: grayscale(100%); /* Set the icon color to gray */
+}

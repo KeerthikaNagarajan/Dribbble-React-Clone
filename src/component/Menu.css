@@ -1,0 +1,49 @@
+/* src/component/Menu.css */
+
+  .menu-container {
+    display: flex;
+    flex-direction: row; /* Display items vertically */
+    width: 20px; /* Adjust width as needed */
+    padding: 0;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+
+  }
+  
+  .menu-item {
+    padding: 15px 39px 39px 0px; /* Adjust padding as needed */
+    cursor: pointer;
+  }
+  
+  .menu-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+  }
+  
+  .menu-item:hover {
+    color: rgb(86, 86, 86);
+  }
+  
+
+  .bar2-right {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+  
+  }
+  
+  .bar2-button {
+  background-color: white;
+  border: 2px solid #d1d1d1;
+  padding: 10px 5px 10px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 115px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 70px;
+  justify-content: center
+  }
